@@ -14,3 +14,26 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.container {
+  padding: 15px;
+}
+
+.search-form {
+  border-bottom: 1px solid black;
+  padding: 15px;
+}
+
+.row {
+  display: flex;
+}
+.row label {
+  margin-right: 5px;
+}
+.row + .row {
+  margin-top: 15px;
+}
+
+.radio-group {
+  display: flex;
+}
